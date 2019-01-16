@@ -1,0 +1,66 @@
+body{
+      background-color: #fff;
+}
+#areaLista{
+    width: 100%;
+    background-color: #fff;
+    padding-top: 74px;
+    margin-bottom: 160px;
+}
+li{
+ width: 90%;
+    border: solid;
+    border-radius: 10px;
+    margin-bottom: 19px;
+    margin-top: -17px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    list-style-type: none;
+    text-align: center;
+    border-style: outset;
+    background-color: white;
+}
+
+#header{
+    text-align: center;
+    margin-top: -15px;
+    color: #2c8afc;
+    background-color: #fff;
+    margin-left: -10px;
+    height: 70px;
+    position: fixed;
+    width: 101%;
+    border-bottom: 5px solid #2c8afc;
+}
+#btnVoltarSearch{
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAACXBIWXMAAAsSAAALEgHS3X78AAADwklEQVRIia1XQWsTQRT+so2FgNAICoqHRkSDXpKecnR/wTTevDX1mkNX8W68eHV7WDwomOLBi4d0epYmWMQgQnMQyUFosXhRsAVpIbZdeZM3m8lmN7uiD8q225n3fe977828zfi+j7+xbt/JAyhsfHf3v715dvPHx41D2i6lbP+VIwDZtAu7fccFQAAOv2rPnrtUAzBPfwgh6NEB0ALQlFLuJ/mcGnm37xTIEf842jGAfKXobjOozcvpWQVQAnAAgMi600jEgnOkBEbRtSpFt5UUCZMhwg0AS0yiGpeSCXDOaZ6B25Wi60RtTEHC5uhJiWUpZTMNOIHalaKbj2RbV/Laodc7RNT31NMkkOc0LUYRGAPv9h2KcptzOiZzpq6kDAosxqjgGr6HMZmFEC0mcFtKGfi1DOAy56psAmfqKGfqitDDBGCyWwA2M3Ult2lEukcqsBojcM5zjeUONhIwt1cpATRsK0xYGVc8+Z/jOhiLnHK4YjrI1FXRtXlDpOXOTCVQytQR5FhKSWTWqAu4IwJw+uOK7l22ZhLw1QvApjOVxBIXqLYGP2sKnA+SJ2YFs9yLScBv7wP2NeDdg6kEApmllNQN63wYBZEvcF9ri+1tEzifG77b3gOOfgMzVuSWEgejTdUQFZ7FzJqVomseg+E+jgVuvgeWXw6BT05jozf96dSWLc5DLbR4oqX+AVgB6V+Mo7aQbe09fn46ONyqFOOlns0C58+OA7d6qYHBBT3xzvq0eufX56d3o/4Z2OAY+PpzCKjNvg6ULgMzmUTgWNMlEnmOh40iJanVhhzQvgfcuAjMziRuDY5b3eOUe4sLoBxa3PnPBMwLR2Pta/A5gxFCbZeKQG4WyEa3WtifqnwqPMuQxKz4Jg8CqQg4r4GjAXAcXXhrvgezjat80MDiU6djgvPiRqSrEAHbBV59AAYnkUsOzANLCFHlNlZKaKEIaF4IESz0PXX4rCUR2PoSC0xWC0VNOLt6qFDg3PhqEAjl3tESxdmUHl/2vVGuObCSqahZIjrqlr7wibXvqRw9SqoBw+g0WPC90XUqhCjz5dUxR6kAnO9bzW5sEvE9xbbAJHoTcENb52jLvjcaJBiYlN3Vt5m2iQFSCEGF94JB7Li527ind8KDo+Gryp0D9mXOC9FzOxPQ0TtRY+8047S5PLv3eHafIBj70cByNTkNu/rqnfYFwnsclpemoFUqsFj1kj4UWQVdC2QUCUVhSkgpIGA9dlGLEmhkOlKDh6LSHwwkK43JZKQKgagPB+qWNB+JAPAHQPyOqMquJusAAAAASUVORK5CYII=')center center no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 26px;
+}
+#txtCabecalhoSearch{
+    margin-left: -100%;
+    margin-top: 25px;
+    font-size: 27px;
+}
+.dialog-area {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 14px 28px;
+    z-index: 9999999999999;
+    left: 50%;
+    top: 61%;
+    transform: translate(-50%, -50%);
+    border-radius: 2px;
+    text-align: center;
+}
+
+#dialogLoadText {
+    display: block;
+    width: 100%;
+}
