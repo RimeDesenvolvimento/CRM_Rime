@@ -383,7 +383,8 @@ div.scrollmenu a:hover {
   margin-top:-2.5%;
   width: 110%;
   margin-left: -2%;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .tabcontent {
   display: none;
